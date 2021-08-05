@@ -1,0 +1,24 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.box {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(#ccc, #eee);
+  opacity: 0.5;
+  border-radius: 50% 0% / 50% 0%;
+  transform-origin: 100% 0%;
+}
+
+.box:nth-child(1) { transform: rotate(0deg); }
+.box:nth-child(2) { transform: rotate(60deg); }
+.box:nth-child(3) { transform: rotate(120deg); }
+.box:nth-child(4) { transform: rotate(180deg); }
+.box:nth-child(5) { transform: rotate(240deg); }
+.box:nth-child(6) { transform: rotate(300deg); }
